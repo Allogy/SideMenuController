@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'SideMenuController'
-  s.version = '0.4.0'
+  s.version = '0.5.0'
   s.license = 'MIT'
   s.summary = 'Fully customisable and easy to use side menu controller written in Swift.'
   s.description = 'SideMenuController is a custom container view controller written in Swift which will display the main content within a center panel and the secondary content (option menu, navigation menu, etc.) within a side panel when triggered. The side panel can be displayed either on the left or on the right side, under or over the center panel.'
@@ -9,9 +9,9 @@ Pod::Spec.new do |s|
   s.authors = { 'Teodor Patraș' => 'me@teodorpatras.com' }
   s.source = { :git => 'https://github.com/Allogy/SideMenuController.git', :tag => s.version }
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
 
-  s.swift_version = '4.2'
+  s.swift_version = '5.0'
 
   s.source_files = 'Source/*.swift'
 
